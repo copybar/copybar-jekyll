@@ -6,4 +6,4 @@ tagline: Supporting tagline
 {% include JB/setup %}
 
 
-<script src="//copybar.io/{{ copybar_username }}/{{ page.title }}"></script>
+<script src="//copybar.io/{{ copybar_username }}/{{ page.title }}.js"></script>
