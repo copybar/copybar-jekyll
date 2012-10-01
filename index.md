@@ -5,4 +5,5 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<h3>Im from index.html</h3>
+
+<script src="//copybar.io/{{ copybar_username }}/{{ page.title }}"></script>

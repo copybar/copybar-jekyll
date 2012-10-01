@@ -28,6 +28,7 @@ author :
 #
 production_url : http://username.github.com
 
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
