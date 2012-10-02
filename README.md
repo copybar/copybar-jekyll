@@ -16,7 +16,7 @@ _includes/themes/twitter/page.html
 
 Use the Copybar elements you find as examples.  You can create any number of these elements, and put them almost anywhere on this site.
 
-It's best to study how Jekyll renders template files if you want to customize this way.  This this [documentation](http://jekyllbootstrap.com/lessons/jekyll-introduction.html#initial_setup).
+It's best to study how Jekyll renders template files if you want to customize this way.  See this [documentation](http://jekyllbootstrap.com/lessons/jekyll-introduction.html#initial_setup).
 
 ## Running Locally
 
@@ -25,18 +25,18 @@ Jekyll is a Ruby gem.  You will need ruby on your machine to run it.
 Enter this command in your terminal, when you are in the root directory your blog:
 jekyll --server
 
-If it runs, you can visit [localhost:4000](http://localhost:4000) and begin editing your Copybar elements
+If it runs, you can visit <http://localhost:4000> and begin editing your Copybar elements
 
 ## Deploying to Github pages
 
 You can deploy this blog just like any other Jekyll blog, using git and github pages.
 
-[Learn how to do this here.](https://help.github.com/articles/using-jekyll-with-pages)
+<https://help.github.com/articles/using-jekyll-with-pages>
 
 
 ## Usage for Jekyll Bootstrap
 
-This version of Jekyll is specifically wired with Twitter Bootstrap and jQuery.  The same great workflow is available via the command line and your text editor.
+This version of Jekyll is specifically wired with Twitter Bootstrap and jQuery.  The entire Jekyll workflow is available via the command line and your text editor.
 
 For all usage and documentation please see: <http://jekyllbootstrap.com>
 
