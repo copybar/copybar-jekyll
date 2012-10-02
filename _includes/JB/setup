@@ -3,7 +3,14 @@
   - Dynamically set liquid variables for working with URLs/paths
   -->
 
+
+  <!-- --------------------------------
+
+  Put in your Copybar Username here 
+  ---------------------------------- -->
   {% assign copybar_username = 'mhurwi'  %}
+
+
 
   {% if site.JB.setup.provider == "custom" %}
     {% include custom/setup %}
