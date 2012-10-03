@@ -65,6 +65,7 @@ Github will generate the site and you can visit it at http://your-username.githu
 You deploy your Jekyll blog to Github Pages using git.  Here are more detailed instructions:
 
 <https://help.github.com/articles/using-jekyll-with-pages>
+
 <http://jekyllbootstrap.com>
 
 
