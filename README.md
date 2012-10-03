@@ -71,7 +71,7 @@ You deploy your Jekyll blog to Github Pages using git.  Here are more detailed i
 
 ## Usage for Jekyll Bootstrap
 
-Thanks to some hard work by a committed developer, this version of Jekyll is specifically wired with Twitter Bootstrap and jQuery. Since the entire Jekyll workflow is available, you can manage your blog with just your command line and a text editor.
+Thanks to some hard work by a committed developer, this version of Jekyll comes with Twitter Bootstrap and jQuery. Also, the entire Jekyll workflow is maintained, so you can manage your blog with just your command line and a text editor.
 
 For all usage and documentation please see the original at: <http://jekyllbootstrap.com>
 
