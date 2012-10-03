@@ -2,6 +2,15 @@
 
 Jekyll Bootstrap preconfigured with Copybar.  Put your username in _includes/JB/setup.  New pages and posts come loaded with Copybar elements, ready for editing, right in your browser.  
 
+## Quickstart Guide
+
+1. Download or clone this repository
+2. In the terminal, cd *the root directory of what you downloaded*
+3. With a text editor, edit '_includes/JB/setup' to include your Copybar username
+4. Generate your first post with the command 'rake post title='Hello World'
+5. Run your new blog with the command 'jekyll --server'
+6. Visit your blog at <http://localhost:4000>
+7. Begin editing with Copybar
 
 ## Copybar Configuration
 
@@ -48,3 +57,10 @@ For all usage and documentation please see: <http://jekyllbootstrap.com>
 ## License
 
 [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+
+
+<script src="//copybar.io/mhurwi/readme-test.js">
+
+</script>
+
