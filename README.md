@@ -31,7 +31,7 @@ Every new page or blog post is generated with Copybar elements, each containing 
 
 A blog post has one Copybar element.  A new main page comes with 3 copybar elements: main content, secondary content, and sidebar right.
 
-To create additional Copybar elements, you need to modify some layout files:
+You can customize your site by adding more template Copybar elements in these layout files:
 _includes/themes/twitter/post.html
 _includes/themes/twitter/page.html
 
@@ -41,13 +41,19 @@ Use the Copybar elements you find as examples.  Create as many elements as you w
 
 ## Creating new pages and blog posts
 
-The two commands are:
+To create new a new blog post called 'Hello World':
+
 rake post title='Hello World'
-rake page title='Awesome page'
 
-Jekyll will create a new blog post complete with a Copybar element for you to edit. Pages are similar, except they appear in the main nav and they come with 3 copybar elements for you to edit.  
+For a new main page, like 'About Me':
 
-You can edit these locally, but the new post or page won't appear on Github Pages until you push it to Github.  Run the command 'git push'.
+rake page title='About Me'
+
+Jekyll will create a new blog post complete with a Copybar element for you to edit. Main pages are similar, but they appear in the main nav and they come with 3 copybar elements for you to edit.  
+
+You can edit these locally, but the new post or page won't appear on Github Pages until you push it to Github: 
+
+'git push'.
 
 
 ## Deploying to Github pages
@@ -56,7 +62,7 @@ You can create a Github Pages blog for your main github account by pushing your 
 
 Github will generate the site and you can visit it at http://your-username.github.com.  You can edit your copybar content when visiting this site.
 
-You deploy your Jekyll blog on Github Pages using git.  It's simple, but you may want some detailed instructions:
+You deploy your Jekyll blog to Github Pages using git.  Here are more detailed instructions:
 
 <https://help.github.com/articles/using-jekyll-with-pages>
 <http://jekyllbootstrap.com>
