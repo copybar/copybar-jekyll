@@ -8,7 +8,7 @@
 
   Put in your Copybar Username here 
   ---------------------------------- -->
-  {% assign copybar_username = 'mhurwi'  %}
+  {% assign copybar_username = 'YOUR-NAME-HERE'  %}
 
 
 

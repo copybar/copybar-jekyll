@@ -7,8 +7,8 @@
   <div class="span8">
 
   	<!-- Copybar Main and Secondary content -->
-    <script src="//copybar.io/{{ copybar_username }}/{{ page.title }}-main-content.js"></script>
-    <script src="//copybar.io/{{ copybar_username }}/{{ page.title }}-secondary-content.js"></script>
+    <script src="//copybar.io/{{ copybar_username }}/{{ page.title | replace: '','-' }}-main-content.js"></script>
+    <script src="//copybar.io/{{ copybar_username }}/{{ page.title | replace: '','-' }}-secondary-content.js"></script>
      
 
      <!-- You can still publish content here suing the typical Jekyll workflow. -->
@@ -19,6 +19,6 @@
 
   <!-- Copybar sidebar right -->
   <div class="span4">
-  	<script src="//copybar.io/{{ copybar_username }}/{{ page.title }}-sidebar-right.js"></script>
+  	<script src="//copybar.io/{{ copybar_username }}/{{ page.title | replace: '','-' }}-sidebar-right.js"></script>
   </div>
 </div>
